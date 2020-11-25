@@ -1,0 +1,95 @@
+.home .home-nav {
+  display: flex;
+  line-height: 46px;
+}
+.home .t1 {
+  font-weight: bold;
+}
+.home .t2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.home /deep/ .home-search .van-search {
+  padding: 0;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.home /deep/ .home.home-search .van--icon {
+  color: #f7f7f7;
+}
+.home .home-content {
+  padding: 10px 10px 0 10px;
+}
+.home .banner-box {
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.home .index-box {
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  display: flex;
+}
+.home .index-box > div {
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 1px;
+}
+.home .index-box > div.active {
+  background-color: skyblue;
+}
+.home .product-box {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.home .pro-title-box {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.home .pro-title {
+  float: left;
+  padding: 0 15px;
+  margin-left: 10px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255, 165, 0, 0.6);
+  color: black;
+  line-height: 32px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.home .products {
+  margin-top: 10px;
+}
+.home .pro-item {
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.home .pro-item:nth-child(2n) {
+  margin-right: 0;
+}
+.home .pro-info {
+  margin-top: 10px;
+  text-align: left;
+}
+.home .pro-name {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.home .pro-price {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home .pro-price > span {
+  color: red;
+  font-size: 20px;
+}

@@ -1,0 +1,104 @@
+.home{
+    .home-nav{
+        display: flex;
+        line-height: 46px;
+    }
+    .t1{
+        font-weight: bold;
+    }
+    .t2{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /deep/ .home-search .van-search{
+        padding: 0;
+        border-radius: 17px;
+        overflow: hidden;
+    }
+
+    /deep/ .home.home-search .van--icon {
+        color: #f7f7f7;
+    }
+    .home-content{
+        padding: 10px 10px 0 10px;
+    }
+    .banner-box{
+        background-color: #fff;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .index-box{
+        position: absolute;
+        right: 8px;
+        bottom: 10px;
+        display: flex;
+        >div{
+            width: 10px;
+            height: 2px;
+            background-color: #fff;
+            margin-right: 5px;
+            border-radius: 1px;
+            &.active{
+                background-color: skyblue;
+            }
+        }
+    }
+    .product-box{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .pro-title-box{
+        background-color: #fff;
+        padding: 10px 0;
+    }
+    .pro-title{
+        float: left;
+        padding: 0 15px;
+        margin-left: 10px;
+        height: 32px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color:rgba(255, 165, 0,.6);
+        color: black;
+        line-height: 32px;
+        border-bottom-right-radius: 16px;
+        border-top-left-radius: 16px;
+    }
+    
+  .products{
+    margin-top: 10px;
+  }
+
+  .pro-item{
+    width: calc(~"50% - 25px");
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+    
+  }
+
+  .pro-info{
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .pro-name{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .pro-price{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    >span{
+        color: red;
+        font-size: 20px;
+    }
+  }
+}
